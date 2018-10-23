@@ -1,3 +1,18 @@
+
+
+@keyframes fade {
+  0%{
+    content: url("porsche-normal (1).jpg");
+  }
+  50%{
+    content: url("porsche-normal (2).jpg");
+  }
+  100%{
+    content: url("porsche-normal.jpg");
+  }
+}
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -9,7 +24,7 @@ text-align: -webkit-center;
 
 #slideImag img{
 	width: 100%;
-
+animation: fade 20s infinite;
 }
 
 #menuSet{

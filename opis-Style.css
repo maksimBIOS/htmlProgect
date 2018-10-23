@@ -24,3 +24,86 @@ margin: 40px 0 0 50px;
 font-size: 20px;
 margin: 0px 0 0 50px;
 }
+
+#infoSet2{
+	overflow: hidden;
+}
+
+
+#ot1 {
+	width: 360px;
+	float: left;
+	
+}
+
+#ot1 h4{
+	font-size: 30px;
+	margin: 40px 0 0 50px;
+	border-right: solid 1px black;
+}
+
+#ot1 p{
+	font-size: 15px;
+	margin: 0px 0 0 50px;
+	border-right: solid 1px black;
+}
+
+#ot2 {
+	width: 280px;
+	float: left;
+}
+
+#ot2 h4{
+	font-size: 30px;
+	margin: 40px 0 0 50px;
+	border-right: solid 1px black;
+}
+
+#ot2 p{
+	font-size: 15px;
+	margin: 0px 0 0 50px;
+	border-right: solid 1px black;
+}
+
+#ot3 {
+	width: 300px;
+	float: left;
+}
+
+#ot3 h4{
+	font-size: 30px;
+	margin: 40px 0 0 50px;
+	border-right: solid 1px black;
+}
+
+#ot3 p{
+	font-size: 15px;
+	margin: 0px 0 0 50px;
+	border-right: solid 1px black;
+}
+
+#ot4 {
+	font-size: 15px;
+	margin: 25px 0 0 50px;
+}
+
+#ot4 img{
+	margin: 0 0 0 20px;
+}
+
+#fotoPorsh{
+
+height: 500px;
+background-color: red;
+overflow: hidden;
+}
+
+#fot1{
+	width: 50%;
+	float: left;
+}
+
+#fot2{
+	width: 50%;
+	float: left;
+}

@@ -93,17 +93,68 @@ margin: 0px 0 0 50px;
 
 #fotoPorsh{
 
-height: 500px;
-background-color: red;
+height: 100%;
+/*background-color: red;*/
 overflow: hidden;
 }
 
 #fot1{
-	width: 50%;
+	width: 60%;
 	float: left;
+
 }
 
 #fot2{
-	width: 50%;
+	width: 40%;
 	float: left;
+}
+
+#fot1 img{
+	width: 100%;
+	
+}
+
+#fot3 {
+		position: relative;
+		margin-bottom: -4px;
+}
+
+
+#fot3 img{
+	width: 100%;
+}
+
+#fot4  img{
+	width: 90%;
+}
+
+#otstup{
+	height: 20px;
+}
+
+
+#text1{
+	width: 100%;
+}
+
+#text1 p{
+text-align: center;
+font-size: 35px;
+}
+
+
+
+#tablId{
+	width: 100%;
+	float: left;
+}
+
+#tabId1{
+	background-color: green; float: left;
+	width: 50%;
+}
+
+#tabId2{
+	background-color: blue; float: left;
+	width: 50%;
 }

@@ -52,7 +52,7 @@ color: white;
 
 #group{
 	margin: 0 100px 0 100px;
-	height: 820px;
+	height: 100%;
 }
 
 #numb2{
@@ -75,10 +75,6 @@ color: white;
 	margin: 0 200px 0 200px;
 }
 
-#otst{
-	padding: 25px 0 0 0;
-  height: 100%;
-}
 
 
 #qwe a{
@@ -275,10 +271,8 @@ color: white;
 
 
 
-
 #otst{
-  height: 100%;
-  width: 100%;
+  overflow: hidden;
 }
 
 

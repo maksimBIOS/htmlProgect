@@ -1,6 +1,7 @@
 
 #otst{
 	margin: 0 120px 0 120px;
+  overflow: hidden;
 }
 
 .gallery {
@@ -85,8 +86,5 @@
 }
 
 
-#otstup{
-  height: 950px;
-}
 
 

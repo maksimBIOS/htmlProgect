@@ -4,7 +4,7 @@ body{
 }
 
 #menuSet{
-	height: 100px;
+	height: 100%;
 	text-align: center;
 }
 
@@ -31,7 +31,7 @@ margin: 0px 0 0 50px;
 
 
 #ot1 {
-	width: 360px;
+	width: 30%;
 	float: left;
 	
 }
@@ -49,7 +49,7 @@ margin: 0px 0 0 50px;
 }
 
 #ot2 {
-	width: 280px;
+	width: 20%;
 	float: left;
 }
 
@@ -66,7 +66,7 @@ margin: 0px 0 0 50px;
 }
 
 #ot3 {
-	width: 300px;
+	width: 20%;
 	float: left;
 }
 
@@ -146,7 +146,8 @@ font-size: 35px;
 #tablId{
 	width: 100%;
 	float: left;
-	height: 400px;
+	height: 100%;
+	overflow: hidden;
 }
 
 #tabId1{
@@ -308,4 +309,56 @@ width: 100%;
 
 #dowlFileSet-1 a:hover{
 	color: red;
+}
+
+#posled{
+	height: 100%; 
+	margin-bottom: 3%;
+}
+
+#posled-1 p{
+text-align: center;
+font-size: 35px;
+}
+
+#posled-2{
+	overflow: hidden;
+}
+
+#leftPos{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#leftPos a{
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	margin: 0;
+}
+
+#leftPos a:hover{
+color: red;
+}
+
+#toplivo{
+	height: 100%;
+}
+
+#toplivo-1{
+	text-align: center;
+}
+
+#toplivo-1 p{
+	font-size: 35px;
+	margin-bottom: 7px;
+}
+
+#toplivo-2{
+text-align: center;	
+}
+
+#toplivo-2 img{
+	width: 90%;
 }

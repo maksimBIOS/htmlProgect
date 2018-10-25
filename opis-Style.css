@@ -82,6 +82,10 @@ margin: 0px 0 0 50px;
 	border-right: solid 1px black;
 }
 
+#otst{
+	height: 100%;
+}
+
 #ot4 {
 	font-size: 15px;
 	margin: 25px 0 0 50px;
@@ -195,7 +199,7 @@ a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
 
 #colorDivGrey{
 	background-color: #191F22;
-	height: 300px;
+	height: 100%;
 }
 
 #botoomDiv{
@@ -279,11 +283,32 @@ width: 100%;
 }
 
 #dowlanFile{
-	height: 400px;
-	background-color: red;
+	height: 100%;
 }
 
 #dowlanFile h4{
 	font-size: 30px;
 	text-align: center;
+}
+
+#dowlFileSet{
+	overflow: hidden;
+}
+
+#dowlFileSet-1{
+	width: 33.3%;
+	float: left;
+	height: 100px;
+	text-align: center;
+}
+
+#dowlFileSet-1 a{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+
+}
+
+#dowlFileSet-1 a:hover{
+	color: red;
 }

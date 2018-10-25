@@ -147,14 +147,63 @@ font-size: 35px;
 #tablId{
 	width: 100%;
 	float: left;
+	height: 400px;
 }
 
 #tabId1{
-	background-color: green; float: left;
+	float: left;
 	width: 50%;
 }
 
 #tabId2{
-	background-color: blue; float: left;
+	float: left;
 	width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+th, td {
+font-size: 17px;
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+#blackColor{
+	border-bottom: 1px solid black;
+}
+
+#grayColor{
+	color: #C3C5C5;
+}
+
+a.knopka {
+	font-size: 17px;
+  	float: right;
+  	margin: 0 35px 0 0;
+  	color: #fff; /* цвет текста */
+  	text-decoration: none; /* убирать подчёркивание у ссылок */
+  	user-select: none; /* убирать выделение текста */
+  	background: #313639; /* фон кнопки */
+  	padding: .7em 1.5em; /* отступ от текста */
+  	outline: none; /* убирать контур в Mozilla */
+} 
+a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+
+#colorDivGrey{
+	background-color: #191F22;
+	height: 300px;
+}
+
+#botoomDiv{
+ padding: 20px 100px 0 100px;
+}
+
+#botoomDiv p{
+color: white;
 }

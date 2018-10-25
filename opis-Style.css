@@ -92,10 +92,8 @@ margin: 0px 0 0 50px;
 }
 
 #fotoPorsh{
-
-height: 100%;
-/*background-color: red;*/
-overflow: hidden;
+	height: 100%;
+	overflow: hidden;
 }
 
 #fot1{
@@ -206,4 +204,86 @@ a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
 
 #botoomDiv p{
 color: white;
+}
+
+#fot12{
+	width: 50%;
+float: left;
+}
+
+#fot12 img{
+width: 100%;
+
+}
+
+#fot23{
+	width: 50%;
+	float: left;
+	
+}
+
+#fot23-1{
+	overflow: hidden;
+}
+
+#fot23-1-1{
+	width: 50%;
+	float: left;
+}
+
+#fot23-1-1 img{
+	width: 100%;
+}
+
+#fot23-1-2{
+	width: 50%;
+	float: left;
+}
+
+#fot23-1-2 img{
+	width: 100%;
+}
+
+#fot23-2{
+		margin-top: -4px;
+}
+
+#fot23-2 img{
+		width: 100%;
+}
+
+#fot12-1{
+		margin-bottom: -4px;
+}
+
+#fot12-2-1{
+	width: 50%;
+	float: left;
+}
+
+#fot12-2-1 img{
+	width: 100%;
+}
+
+#fot12-2-2{
+	width: 50%;
+	float: left;
+}
+
+#fot12-2-2 img{
+	width: 100%;
+}
+
+#galFoto{
+	height: 100%; overflow: hidden;
+}
+
+#dowlanFile{
+	height: 400px;
+	background-color: red;
+}
+
+#dowlanFile h4{
+	font-size: 30px;
+	text-align: center;
 }
